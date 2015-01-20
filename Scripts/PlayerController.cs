@@ -1,9 +1,9 @@
 using UnityEngine;
 using System.Collections;
 
-//public delegate void JumpDelegate ();
+public delegate void JumpDelegate ();
 
-public class ThirdPersonControllerNET : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 	// The object we're steering
 	public Rigidbody target;

@@ -4,14 +4,12 @@ using System.Collections;
 
 public class ThirdPersonNetworkBxr : Photon.MonoBehaviour
 {
-//    ThirdPersonCameraNET cameraScript;
     ThirdPersonControllerNET controllerScript;
     private bool appliedInitialUpdate;
 
     void Awake()
     {
 		Debug.Log ("ThirdPersonNetworkBxr, Awake:I");
-//        cameraScript = GetComponent<ThirdPersonCameraNET>();
         controllerScript = GetComponent<ThirdPersonControllerNET>();
     }
     void Start()
